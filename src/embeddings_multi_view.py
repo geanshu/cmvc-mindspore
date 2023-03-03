@@ -433,6 +433,7 @@ class Embeddings(object):
         old_label, new_label = context_view_label, self.label
         print('old_label : ')
         cluster_test(self.p, self.side_info, old_label, self.true_ent2clust, self.true_clust2ent, print_or_not=True)
+        exit()
         print('new_label : ')
         cluster_test(self.p, self.side_info, new_label, self.true_ent2clust, self.true_clust2ent, print_or_not=True)
 
